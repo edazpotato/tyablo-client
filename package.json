@@ -1,0 +1,19 @@
+{
+	"name": "speaker.exe",
+	"version": "4.2.0",
+	"description": "A mini spotify web player",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.mjs"
+	},
+	"keywords": [
+		"music",
+		"player"
+	],
+	"author": "Edazpotato",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"node-fetch": "^3.0.0"
+	}
+}

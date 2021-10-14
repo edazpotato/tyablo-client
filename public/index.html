@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="javascript.js"></script>
+		<style>
+			* {
+				box-sizing: border-box;
+				font-family: sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Tyablo</h1>
+		<fieldset>
+			<legend>Login with phone number</legend>
+			<fieldset>
+				<legend>Get login code</legend>
+				<label for="phone-number-box">Phone number</label
+				><input
+					type="text"
+					id="phone-number-prefix-box"
+					placeholder="+64"
+					required
+					style="width: 80px"
+				/><input
+					type="text"
+					id="phone-number-box"
+					placeholder="022 500 12345"
+					required
+				/>
+
+				<button id="send-login-code-button">get code</button>
+			</fieldset>
+			<fieldset>
+				<legend>Log in with code sent to your phone</legend>
+				<label for="login-code-box">Login code</label
+				><input
+					type="number"
+					id="login-code-box"
+					placeholder="12345678"
+					required
+				/><label for="signup-name-box"
+					>Name (Only set this if you don't already ahve an
+					account')</label
+				>
+				<input type="text" id="signup-name-box" placeholder="edaz" />
+				<button id="verify-login-code-button">Verify code</button>
+			</fieldset>
+		</fieldset>
+	</body>
+</html>
